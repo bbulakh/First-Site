@@ -1,0 +1,16 @@
+const inputTask = document.getElementById("input-task");
+const addTaskButton = document.getElementById("add-task-button");
+const taskList = document.getElementById("task-list")
+
+addTaskButton.addEventListener("click", function() {
+    const value = inputTask.value;
+    taskList.innerHTML += `<li>
+        <input type="checkbox" class="check">
+        <span class="task">${value}</span>
+        <button onclick="deleteTask(this)" class="delete-btn"><img class="delete-btn__icon" src="./images/icons8-trash-can.svg" alt="trash"></button>
+    </li>`
+});
+
+function deleteTask(event){
+    event.parentElement.remove();
+}

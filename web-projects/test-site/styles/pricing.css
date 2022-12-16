@@ -1,0 +1,359 @@
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background: black;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    margin-top: 46px;
+    margin-bottom: 46px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 112px;
+    line-height: 168px;
+    text-align: center;
+    margin-top: 128px;
+    margin-left: 46px;
+    margin-right: 46px;
+    margin-bottom: auto;
+    line-height: 1.2;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    flex-basis: 150px;
+    flex-direction: row;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.arrow{
+    padding-left: 10px;
+}
+
+.reg-buttons{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.logo{
+    width: 196px;
+    height: 56px;
+    left: 140px;
+    top: 46px;
+}
+
+a{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #707070;
+}
+
+a:hover{
+    color: #3C82F4;
+}
+
+#signUP{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background: #306EF7;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 119px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.blog_heading{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 168px;
+    text-align: center;
+    margin-top: 128px;
+    margin-left: 46px;
+    margin-right: 46px;
+    margin-bottom: auto;
+    line-height: 1.2;
+    color: white;
+}
+
+.blog_heading__p{
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.pricing{
+    font-family: 'Poppins', sans-serif;
+    width: 1640px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 123px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing__card{
+    width: 496px;
+    height: 989px;
+    background: #131313;
+    border: 1px #707070 solid;
+    border-radius: 20px;
+    position: relative;
+}
+
+.pricing_card__content{
+    padding-left: 0px;
+}
+
+.pricing_card__header{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.pricing_card__underline{
+    color: #B4B1B1;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: -45px;
+}
+
+.pricing_card__adv{
+    font-weight: 700;
+    font-size: 69px;
+    color: white;
+    margin-top: -14px;
+}
+
+.adv_margin{
+    margin-bottom: 183px;
+}
+
+.pricing_card__midh{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.pricing_card__midh1{
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: -20px;
+}
+
+.pricing_card__midh2{
+    font-weight: 400;
+    font-size: 24px;
+    color: #B4B1B1;
+    text-align: center;
+}
+
+.pricing_card__kf{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.pricing_card__list{
+    list-style: none;
+    padding-left: 0px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.card__span{
+    font-weight: 400;
+    font-size: 26px;
+    color: #B4B1B1;
+}
+
+.adv__text{
+    font-weight: 400;
+    font-size: 28px;
+    text-decoration-line: underline;
+    color: #B4B1B1;
+    margin-top: -70px;
+    margin-bottom: 70px;
+}
+
+.card__btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.pricing_card__btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    width: 424.5px;
+    height: 101.5px;
+    border: 3.5px solid #4681E7;
+    background: none;
+    color: white;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 36px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.pricing__card.card_blue{
+    color: white;
+    background: #3C82F4;
+    border: none;
+}
+
+.white_text{
+    color: white;
+}
+
+.white_btn{
+    background: white;
+    color: #3C82F4;
+}
+
+.pricing_card__heading{
+    padding-left: 34px;
+}
+
+.card__list{
+    margin-top: 30px;
+    padding-left: 34px;
+    margin-top: 54px;
+}
+
+.bottom_block{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 188px;
+}
+
+.bottom_block__image{
+    width: 164px;
+    height: 154px;
+}
+
+.bottom_block__heading{
+    font-weight: 700;
+    font-size: 100px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.bottom_block__text{
+    font-weight: 400;
+    font-size: 43px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.bottom_block__button{
+    width: 475px;
+    height: 102px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    background: #326CF9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.underline{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.dot{
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+.dot__span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    bottom: 10px;
+    color: white;
+}
+
+.dot__text{
+    line-height: 38px;
+    color: #707070;
+}
+
+.footer{
+    font-family: 'Poppins', sans-serif;
+    width:1650px;
+    height: 106px;
+    margin: 184px 140px 96px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    color: #707070;
+    text-align: center;
+    margin-top: 0;
+}
+
+.footer__logo__text{
+    margin: 0;
+}
+
+.footer__navbar{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-weight: 500;
+    font-size: 28px;
+    width: 476px;
+    height: 42px;
+    display: flex;
+    padding: 0px 46px 0px 46px;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}

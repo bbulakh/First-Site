@@ -1,0 +1,211 @@
+.pricing{
+    font-family: 'Poppins', sans-serif;
+    width: 1640px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 123px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing__card{
+    width: 496px;
+    height: 989px;
+    background: #131313;
+    border: 1px #707070 solid;
+    border-radius: 20px;
+    position: relative;
+}
+
+.pricing_card__content{
+    padding-left: 34.5px;
+}
+
+.pricing_card__header{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.pricing_card__underline{
+    color: #B4B1B1;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: -45px;
+}
+
+.pricing_card__adv{
+    font-weight: 700;
+    font-size: 69px;
+    color: white;
+    margin-top: -14px;
+}
+
+.pricing_card__midh{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.pricing_card__midh1{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.pricing_card__midh2{
+    font-weight: 400;
+    font-size: 24px;
+    color: #B4B1B1;
+    text-align: center;
+}
+
+.pricing_card__kf{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.pricing_card__list{
+    list-style: none;
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.card__span{
+    font-weight: 400;
+    font-size: 26px;
+    color: #B4B1B1;
+}
+
+.adv__text{
+    font-weight: 400;
+    font-size: 28px;
+    text-decoration-line: underline;
+    color: #B4B1B1;
+    margin-top: -70px;
+}
+
+.pricing_card__btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    width: 424.5px;
+    height: 101.5px;
+    border: 3.5px solid #4681E7;
+    background: none;
+    color: white;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 36px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+
+
+
+
+/*
+.pricing__card1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 496px;
+    height: 989px;
+    background: #3C82F4;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.pricing_card__content1{
+    padding-left: 34.5px;
+}
+
+.pricing_card__header1{
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+
+.pricing_card__underline1{
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: -45px;
+}
+
+.pricing_card__adv1{
+    font-weight: 700;
+    font-size: 69px;
+    margin-top: -14px;
+}
+
+.adv__text1{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+.pricing_card__midh_1{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.pricing_card__midh1_1{
+    font-weight: 400;
+    font-size: 28px;
+    color: white;
+}
+
+.pricing_card__midh2_1{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.pricing_card__kf_1{
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+}
+
+.pricing_card__list_1{
+    list-style: none;
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.card__span1{
+    font-weight: 400;
+    font-size: 26px;
+    color: white;
+}
+
+.pricing_card__btn_1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    width: 424.5px;
+    height: 101.5px;
+    border: 3.5px solid #4681E7;
+    background: #FFFFFF;
+    color: #3C82F4;
+    border-radius: 25px;
+    padding-left: auto;
+    padding-right: auto;
+    position: absolute;
+    bottom: 36px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
